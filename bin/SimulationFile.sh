@@ -1,0 +1,1 @@
+mvn clean gatling:execute -Dgatling.simulationClass=rme.RMEIfapi -DGatling.http.ssl.keyStore.file=spid.p12 -Dgatling.baseUrl=https://url -DuserCount=5 -DrampuUpTime=2 -DnumberSvcCalls=5 >output.log
